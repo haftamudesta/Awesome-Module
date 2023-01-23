@@ -2,7 +2,7 @@ let BookList = {};
 const DisplayBooks = document.querySelector('.collection');
 const NewTitle = document.querySelector('#title');
 const NewAuthor = document.querySelector('#author');
-let SaveBooks = localStorage.getItem('BookList');
+const SaveBooks = localStorage.getItem('BookList');
 const AddBook = document.querySelector('#btn');
 const ErrorChecker = document.querySelector('.checker');
 let StoreBooks = [];
@@ -20,7 +20,7 @@ const Validate = () => {
 
 const DisplayAllBook = () => {
   DisplayBooks.innerHTML = '';
-  let keepBooks = JSON.parse(localStorage.getItem('BookList'));
+  const keepBooks = JSON.parse(localStorage.getItem('BookList'));
   if (keepBooks !== null) {
     StoreBooks = keepBooks;
     keepBooks.forEach((Books, index) => {

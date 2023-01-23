@@ -11,7 +11,6 @@ class AddTime {
         hour12: 'false',
       });
     document.querySelector('.time').innerHTML = daytime;
-    console.log('from time');
   };
 }
 export default AddTime;
