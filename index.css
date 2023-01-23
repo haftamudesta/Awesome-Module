@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.white {
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  border: 2px solid black;
+  height: 40px;
+  margin-bottom: 80px;
+}
+
+.top-nav {
+  background: #6e7072;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.top-nav > * {
+  box-sizing: border-box;
+}
+
+.botom-nav {
+  padding: 0 20px;
+}
+
+.top-part {
+  text-align: center;
+}
+
+.bottom-part {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+.bottom-part p {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.http-input {
+  border: 2px solid rgb(31, 28, 28);
+  border-radius: 8px;
+  margin-left: 80px;
+  height: 40px;
+  padding-left: 5px;
+  width: 40%;
+  font-size: 1rem;
+}
+
+.curved-input {
+  width: 80px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.search-bar {
+  display: flex;
+  height: 40px;
+}
+
+#search-text-input {
+  border: 2px solid black;
+  height: 40px;
+  width: 80px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding: 4px;
+  font-size: 1rem;
+}
+
+.fa-magnifying-glass {
+  background-color: rgb(226, 226, 226);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  padding: 10px 6px;
+  width: 28px;
+}
+
+.logo {
+  margin-left: 8px;
+}
+
+.list-Container {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items {
+  margin-right: 20px;
+}
+
+#List {
+  border-right: 4px solid;
+  border-color: #6e7072;
+  border-width: 2px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#Add {
+  border-right: 4px solid;
+  border-color: #6e7072;
+  border-width: 2px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#Link {
+  cursor: pointer;
+  color: red;
+}
+
+.time {
+  float: right;
+  padding: 20px;
+  margin-top: -90px;
+}
+
+.List-Items {
+  display: none;
+}
+
+.awesome-header {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+.hold-collection {
+  width: 80%;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.add-books {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.new-header {
+  text-align: center;
+}
+
+.input-field {
+  padding: 4px;
+  height: 32px;
+  margin-bottom: 0;
+}
+
+.book-list {
+  margin-top: 12px;
+}
+
+.remove {
+  float: right;
+  margin: 0 20px;
+}
+
+.newbooks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  width: 30%;
+  margin-bottom: 0;
+  margin-top: 12px;
+  border: 2px solid black;
+}
+
+#author {
+  width: 30%;
+  margin-top: 0;
+  border: 2px solid black;
+}
+
+#btn {
+  width: 50px;
+  height: 30px;
+  float: right;
+  margin-left: 26.5%;
+  margin-top: 0;
+  margin-bottom: 44px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.collection {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1em;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 2px solid white;
+}
+
+.collection tr:nth-child(odd) {
+  background-color: red;
+}
+
+.collection tr:nth-child(2n + 1) {
+  background: #e4e5e6;
+}
+
+.Contact {
+  display: none;
+}
+
+.contact-note {
+  text-align: center;
+  padding-left: 16px;
+}
+
+.active {
+  display: block;
+}
+
+.con-head {
+  margin-top: -40px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  text-align: center;
+}
+
+.con-ul {
+  list-style: none;
+  text-align: center;
+}
+
+.second-con-ul {
+  margin-bottom: -20px;
+}
+
+.or {
+  padding-left: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.copyright {
+  margin: 20px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  border: 2px solid #6e7072;
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+}
+
+.footer-down {
+  position: fixed;
+  bottom: 0;
+  height: 3vh;
+  width: 100%;
+  background-color: #6e7072;
+}

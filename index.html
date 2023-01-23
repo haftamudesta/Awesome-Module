@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="Container-fluid">
+      <header>
+        <div class="top-nav">
+          <div class="top-part">
+            <h2>A Web Page</h2>
+          </div>
+          <div class="bottom-part">
+            <i class="fa-solid fa-left-long fa-3x white"></i>
+            <i class="fa-solid fa-right-long white fa-3x"></i>
+            <i class="fa-solid fa-xmark fa-3x"></i>
+            <i class="fa-solid fa-house fa-2x white"></i>
+            <input type="text" placeholder="https://" class="http-input">
+            <div class="search-bar">
+            <input type='text' placeholder='Search...' id='search-text-input' class="curved-input"/><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <div class="botom-nav">
+          <nav class="nav-bar">
+            <section class="logo"><a>Awesome Books</a></section>
+            <ul class="list-Container">
+              <li class="nav-items" id="List" >
+                List
+              </li>
+              <li class="nav-items" id="Add">Add new</li>
+              <li class="nav-items" id="Link">Contact</li>
+            </ul>
+        </div>
+        <div class="date">
+          <p class="time"></p>
+        </div>
+        </nav>
+      </header>
+      
+      <section class="main-container">
+        <section class="List-Items">
+          <h2 class="awesome-header">All awesome books</h2>
+          <section class="hold-collection">
+            <table class="collection"></table>
+          </section>
+        </section>
+        <section class="add-books">
+          <h2 class="new-header">Add a new book</h2>
+          <div class="newbooks">
+            <input
+              type="text"
+              placeholder="Title"
+              id="title"
+              name="title"
+              class="input-field"
+              required
+            /><br /><br />
+            <input
+              type="text"
+              placeholder="Author"
+              id="author"
+              name="author"
+              class="input-field"
+              required
+            /><br /><br />
+            <button type="submit" name="btn" id="btn" class="add-btn">Add</button>
+            <small class="checker"></small><br />
+          </div>
+        </section>
+        <section class="Contact active">
+          <header>
+            <h2 class="con-head">Contact information</h2>
+          </header>
+          <section class="contact-sub">
+            <h3 class="contact-note">Do you have any questions or you just want to say "Hello"? <br>You can reach out to us at!</address>!</h3>
+            <ul class="con-ul">
+              <li><a href="">desta451616@hotmail.com</a></li>
+              <li><a href="">Telephone:+2510915574522</a></li>
+              <li><a href="">Address:Addis Ababa</a></li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <footer>
+        <section class="copyright" id="copy">
+          &copy;&nbsp;copyright ...
+        </section>
+        <section class="footer-down"></section>
+      </footer>
+    </div>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
